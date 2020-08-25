@@ -114,3 +114,36 @@ h2{
 }
 
 .bb{background-color: #d42068;}
+@media(max-width :1028px)
+{
+    .title-image{
+        position: static;
+        transform:rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #d42068;
+    color: #fff;
+    font-family: "Montserrat-Black";
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 5% ;
+    padding-bottom: 5% ;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.footer-icon{
+    margin:1%;
+    margin-bottom:1.5%;
+}
